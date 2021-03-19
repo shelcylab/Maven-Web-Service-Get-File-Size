@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3 (RELEASE-2.4.3-ad3323c; 2019-01-21T17:46:06+0000) JAXWS-RI/2.3.2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://services.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://services.com/">
+
+<xs:element name="Exception" type="tns:Exception"/>
+
+<xs:element name="WaitFor10Secs" type="tns:WaitFor10Secs"/>
+
+<xs:element name="WaitFor10SecsResponse" type="tns:WaitFor10SecsResponse"/>
+
+<xs:element name="getFileName" type="tns:getFileName"/>
+
+<xs:element name="getFileNameResponse" type="tns:getFileNameResponse"/>
+
+<xs:element name="getFileSize" type="tns:getFileSize"/>
+
+<xs:element name="getFileSizeResponse" type="tns:getFileSizeResponse"/>
+
+<xs:complexType name="WaitFor10Secs">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="WaitFor10SecsResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getFileSize">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getFileSizeResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Exception">
+<xs:sequence>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getFileName">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:base64Binary" nillable="true" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getFileNameResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

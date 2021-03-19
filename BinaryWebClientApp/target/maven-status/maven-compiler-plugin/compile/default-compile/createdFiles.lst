@@ -1,0 +1,16 @@
+com\services\Exception.class
+com\services\GetFileNameResponse.class
+com\mycompany\binarywebclientapp\JAXRSConfiguration.class
+com\services\GetFileName.class
+com\services\WaitFor10Secs.class
+com\services\FileHandlerService.class
+data\FileDetails.class
+com\services\package-info.class
+com\mycompany\binarywebclientapp\resources\JavaEE8Resource.class
+com\services\GetFileSizeResponse.class
+com\services\ObjectFactory.class
+com\services\WaitFor10SecsResponse.class
+com\services\GetFileSize.class
+com\services\Exception_Exception.class
+servlet\FileHandlerServ.class
+com\services\FileHandlerServiceService.class

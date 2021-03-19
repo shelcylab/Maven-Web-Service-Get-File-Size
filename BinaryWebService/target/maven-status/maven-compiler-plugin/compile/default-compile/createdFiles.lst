@@ -1,0 +1,8 @@
+com\mycompany\binarywebservice\EmployeedataJpaController.class
+com\services\FileHandlerService.class
+com\mycompany\binarywebservice\Employeedata.class
+com\mycompany\binarywebservice\exceptions\PreexistingEntityException.class
+com\mycompany\binarywebservice\JAXRSConfiguration.class
+com\mycompany\binarywebservice\exceptions\IllegalOrphanException.class
+com\mycompany\binarywebservice\exceptions\NonexistentEntityException.class
+com\mycompany\binarywebservice\resources\JavaEE8Resource.class
